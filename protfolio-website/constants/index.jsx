@@ -28,10 +28,10 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Shachar Males",
+  role: "Software Developer",
   subheading:
-    "With 0 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+    " I am a software engineer with strong teamwork skills, the ability to handle multiple tasks, and a mastery of various tools and technologies. I am seeking a Software Engineer position to apply my skils and knowledge in a real-world setting. I am a quick learner and have strong interpersonal skills. I am excited to bring my enthusiasm and dedication to the role.",
 };
 
 export const PROJECTS = [
