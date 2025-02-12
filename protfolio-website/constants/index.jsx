@@ -11,6 +11,8 @@ import {
   RiJavascriptLine,
   RiReactjsLine,
   RiNodeTree,
+  RiJavaLine,
+  RiAndroidLine,
 } from "@remixicon/react";
 import {
   RiDatabaseLine,
@@ -83,12 +85,12 @@ export const PROJECTS = [
 
 export const SKILLS = [
   {
-    name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600" />,
+    name: "JAVA",
+    icon: <RiJavaLine className="text-orange-600" />,
   },
   {
-    name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500" />,
+    name: "Android",
+    icon: <RiAndroidLine className="text-blue-500" />,
   },
   {
     name: "JavaScript",
@@ -103,7 +105,7 @@ export const SKILLS = [
     icon: <RiNodeTree className="text-green-500" />,
   },
   {
-    name: "MongoDB",
+    name: "Firebase",
     icon: <RiDatabaseLine className="text-green-600" />,
   },
   {
@@ -111,7 +113,7 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
+    name: "Git",
     icon: <RiGitBranchLine className="text-pink-400" />,
   },
 ];
