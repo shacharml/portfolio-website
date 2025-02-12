@@ -1,9 +1,8 @@
-import project1 from "../src/assets/project1.webp"
-import project2 from "../src/assets/project2.webp"
-import project3 from "../src/assets/project3.webp"
-import project4 from "../src/assets/project4.webp"
-import project5 from "../src/assets/project5.webp"
-import project6 from "../src/assets/project6.webp"
+import project1 from "../src/assets/FitMeAppProject.jpg"
+import project2 from "../src/assets/SafePass.webp"
+import project3 from "../src/assets/ProtfolioWebsite.webp"
+import project4 from "../src/assets/PermmisionLibrary.jpg"
+import project5 from "../src/assets/GrandmasSecrets.jpg"
 import personImage from "../src/assets/testimonial.webp";
 
 import {
@@ -37,57 +36,48 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "FitMeApp",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+      "Workout App is an iOS application built with SwiftUI in Xcode. The app includes daily workouts and provides a full-body workout plan for each day of the week. The application leverages Firebase Realtime Database for data storage and Firebase Authentication for user authentication using email and password.",
+    techStack: ["SwiftUI", "Firebase", "Xcode", "Authentication"],
     imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    link: "https://github.com/shacharml/FitMeApp.git",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "SafePass",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
+      "SafePass is a self Password Manager Android Application.",
+    techStack: ["Java", "Android Studio", "MVVM", "Navigation","HTML popup viewer" ],
     imgSrc: project2,
-    link: "https://example-socialapp.com",
+    link: "https://github.com/shacharml/SafePass.git",
   },
   {
     id: 3,
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
+    techStack: ["java Script", "Tailwind CSS","HTML"],
     imgSrc: project3,
-    link: "https://myportfolio.com",
+    link: "https://github.com/shacharml/portfolio-website.git",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Permission Library",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
+      "This is a simple permission library for Android that allows you to easily request runtime permissions.",
+    techStack: ["Java", "JitPack", "Android Studio"],
     imgSrc: project4,
-    link: "https://example-blogplatform.com",
+    link: "https://github.com/shacharml/Permission_Library.git",
   },
   {
     id: 5,
-    title: "Task Management App",
+    title: "Grandmas Secrets",
     description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
+      "Android Share Recipes Application.",
+    techStack: ["Java", "Android Studio","Realtime Firebase", "Firebase Cloud Storage", "Authentication" ,"Glide", "Lottie"],
     imgSrc: project5,
-    link: "https://example-taskapp.com",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
+    link: "https://github.com/shacharml/Grandmas_Secrets.git",
   },
 ];
 
