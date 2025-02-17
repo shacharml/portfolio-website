@@ -1,6 +1,7 @@
 {
   "name": "protfolio-website",
-  "private": true,
+  "homepage": "https://shacharml.github.io/portfolio-website/",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,6 +12,7 @@
   },
   "dependencies": {
     "@remixicon/react": "^4.6.0",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
