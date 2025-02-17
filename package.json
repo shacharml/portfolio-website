@@ -1,6 +1,6 @@
 {
-  "name": "protfolio-website",
   "homepage": "https://shacharml.github.io/portfolio-website/",
+  "name": "protfolio-website",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
