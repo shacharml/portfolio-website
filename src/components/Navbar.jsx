@@ -35,7 +35,7 @@ const Navbar = () => {
         >
           <div className="flex items-center justify-between gap-4">
             <div>
-              <a href="/">
+              <a href="/portfolio-website">
                 <span className="uppercase">Shachar Males </span>
               </a>
             </div>
