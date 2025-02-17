@@ -1,14 +1,15 @@
 {
   "name": "protfolio-website",
   "homepage": "https://shacharml.github.io/portfolio-website/",
-  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "nmp run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@remixicon/react": "^4.6.0",
