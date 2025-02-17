@@ -35,7 +35,16 @@ const Navbar = () => {
         >
           <div className="flex items-center justify-between gap-4">
             <div>
-              <a href="/portfolio-website">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default navigation
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth", // Enables smooth scrolling
+                  });
+                }}
+              >
                 <span className="uppercase">Shachar Males </span>
               </a>
             </div>
@@ -60,7 +69,18 @@ const Navbar = () => {
         <div className="py-2 backdrop-blur-md lg:hidden">
           <div className="flex items-center justify-between">
             <div>
-              <a href="#">
+              <a
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default behavior
+                  setIsMobileMenuOpen(false); // Close menu
+                  // Scroll to top smoothly
+                  window.scrollTo({
+                    top: 0,
+                    behavior: "smooth",
+                  });
+                }}
+              >
                 <span className="pl-2 uppercase">Shachar Males</span>
               </a>
             </div>
