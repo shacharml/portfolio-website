@@ -13,7 +13,7 @@ const Experience = () => {
           {EXPERIENCES.map((exp, index) => (
             <div
               key={index}
-              className="flex flex-col items-start justify-between md:flex-row"
+              className="flex items-center justify-between md:flex-row"
             >
               <div className="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg">
                 {exp.yearRange}
