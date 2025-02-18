@@ -30,7 +30,7 @@ const Navbar = () => {
       <nav className="fixed left-0 right-0 z-50 flex justify-center lg:top-4">
         {/* {desktop Menu} */}
         <div
-          className="flex items-center justify-between rounded-full border border-white/30 
+          className="hidden lg:flex items-center justify-between rounded-full border border-white/30 
       px-6 py-3 backdrop-blur-lg w-fit gap-12"
         >
           <div className="text-white text-lg px-6">
@@ -66,7 +66,7 @@ const Navbar = () => {
         </div>
 
         {/* {Mobile Menu} */}
-        <div className="py-2 backdrop-blur-md lg:hidden">
+        <div className="py-2 backdrop-blur-md w-full lg:hidden">
           <div className="flex items-center justify-between">
             <div>
               <a
