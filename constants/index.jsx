@@ -1,8 +1,8 @@
-import project1 from "../src/assets/FitMeAppProject.jpg"
-import project2 from "../src/assets/SafePass.webp"
-import project3 from "../src/assets/ProtfolioWebsite.webp"
-import project4 from "../src/assets/PermmisionLibrary.jpg"
-import project5 from "../src/assets/GrandmasSecrets.jpg"
+import project1 from "../src/assets/FitMeAppProject.jpg";
+import project2 from "../src/assets/SafePass.webp";
+import project3 from "../src/assets/ProtfolioWebsite.webp";
+import project4 from "../src/assets/PermmisionLibrary.jpg";
+import project5 from "../src/assets/GrandmasSecrets.jpg";
 import personImage from "../src/assets/testimonial.webp";
 
 import {
@@ -25,6 +25,7 @@ export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#experience" },
   { label: "Education", href: "#education" },
+  { label: "Military Service", href: "#mikitary" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -48,9 +49,14 @@ export const PROJECTS = [
   {
     id: 2,
     title: "SafePass",
-    description:
-      "SafePass is a self Password Manager Android Application.",
-    techStack: ["Java", "Android Studio", "MVVM", "Navigation","HTML popup viewer" ],
+    description: "SafePass is a self Password Manager Android Application.",
+    techStack: [
+      "Java",
+      "Android Studio",
+      "MVVM",
+      "Navigation",
+      "HTML popup viewer",
+    ],
     imgSrc: project2,
     link: "https://github.com/shacharml/SafePass.git",
   },
@@ -59,7 +65,7 @@ export const PROJECTS = [
     title: "Portfolio Website",
     description:
       "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["java Script", "Tailwind CSS","HTML"],
+    techStack: ["java Script", "Tailwind CSS", "HTML"],
     imgSrc: project3,
     link: "https://github.com/shacharml/portfolio-website.git",
   },
@@ -75,9 +81,16 @@ export const PROJECTS = [
   {
     id: 5,
     title: "Grandmas Secrets",
-    description:
-      "Android Share Recipes Application.",
-    techStack: ["Java", "Android Studio","Realtime Firebase", "Firebase Cloud Storage", "Authentication" ,"Glide", "Lottie"],
+    description: "Android Share Recipes Application.",
+    techStack: [
+      "Java",
+      "Android Studio",
+      "Realtime Firebase",
+      "Firebase Cloud Storage",
+      "Authentication",
+      "Glide",
+      "Lottie",
+    ],
     imgSrc: project5,
     link: "https://github.com/shacharml/Grandmas_Secrets.git",
   },
@@ -121,69 +134,35 @@ export const SKILLS = [
 export const EXPERIENCES = [
   {
     yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
+    role: "Wedding planner and producer",
+    company: "Ofek Pravda",
     description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
-  },
-  {
-    yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
-  },
-  {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
+      "Working with providers, dealing with purchases and money,managing the event, facing unexpected situations and meeting the couple’s needs and requests.",
+    techStack: [],
   },
 ];
 
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
-  },
-  {
-    id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
-    description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
-  },
-  {
-    id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
-    description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
+    degree: "B.Sc. Software Engineering",
+    institution: "Afeka Collage - Tel Aviv",
+    duration: "2019 - 2023",
+    description: "GPA: 89 ,Majored in Mobile applications development",
   },
 ];
 
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
+export const MILITARY_SERVICE = [
+  {
+    yearRange: "2023 - 2024",
+    role: "Active reserve duty – Iron Swords war",
+    description:
+      "Head of lifeblood system for combat soldiers in Gaza, 98 division.Responsible for combat supplies, validity of the supplies, orders and more. In parallel, evacuation of wounded and fallen soldiers in Gaza. ",
+  },
+  {
+    yearRange: "2014 - 2017",
+    role: "Combat soldier in karakal",
+    description:
+      " I volunteered for combat service to contribute in a meaningful way with the goal of combining giving with receiving. The position required me to meet targets and make decisions under pressure. This experience developed my leadership, teamwork and problemsolving skills, which translated well into my professional life",
+  },
+];
