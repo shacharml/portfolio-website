@@ -148,7 +148,7 @@ export const EDUCATION = [
     degree: "B.Sc. Software Engineering",
     institution: "Afeka Collage - Tel Aviv",
     duration: "2019 - 2023",
-    description: "GPA: 89 ,Majored in Mobile applications development",
+    description: "GPA: 89 , Majored in Mobile applications development",
   },
 ];
 
