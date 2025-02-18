@@ -27,13 +27,13 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="fixed left-0 right-0 z-50 lg:top-4">
+      <nav className="fixed left-0 right-0 z-50 flex justify-center lg:top-4">
         {/* {desktop Menu} */}
         <div
-          className="mx-auto hidden max-w-2xl items-center justify-between rounded-full border border-white/30 
-            px-6 py-2 backdrop-blur-lg lg:flex"
+          className="flex items-center justify-between rounded-full border border-white/30 
+      px-6 py-3 backdrop-blur-lg w-fit gap-12"
         >
-          <div className="flex items-center justify-between gap-4">
+          <div className="text-white text-lg px-6">
             <div>
               <a
                 href="#"
@@ -50,7 +50,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <ul className="flex items-center gap-4">
+          <ul className="flex items-center gap-4 px-2">
             {NAVIGATION_LINKS.map((item, index) => (
               <li key={index}>
                 <a
