@@ -161,7 +161,7 @@ export const MILITARY_SERVICE = [
   },
   {
     yearRange: "2014 - 2017",
-    role: "Combat soldier in karakal",
+    role: "Combat soldier in Karakal",
     description:
       "I volunteered for combat service to contribute in a meaningful way with the goal of combining giving with receiving. The position required me to meet targets and make decisions under pressure. This experience developed my leadership, teamwork and problemsolving skills, which translated well into my professional life.",
   },

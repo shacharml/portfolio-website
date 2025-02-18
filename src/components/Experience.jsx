@@ -13,16 +13,18 @@ const Experience = () => {
           {EXPERIENCES.map((exp, index) => (
             <div
               key={index}
-              className="flex items-center justify-between md:flex-row"
+              className="flex flex-col md:flex-row md:items-center md:justify-between"
             >
-              <div className="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg">
+              <div className="w-full text-sm font-semibold text-stone-300 order-1 md:order-none md:w-1/4 lg:text-lg">
                 {exp.yearRange}
               </div>
-              <div className="w-full md:w-3/4">
+              <div className="w-full order-2 md:w-3/4">
                 <h3 className="mb-2 text-lg lg:text-2xl">
                   {exp.role} -{" "}
-                  <span className="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent">
-                    {exp.company}
+                  <span className="block md:inline">
+                    <span className="bg-gradient-to-b from-purple-400 to-pink-200 bg-clip-text text-transparent">
+                      {exp.company}
+                    </span>
                   </span>
                 </h3>
                 <p className="mb-4 text-sm lg:text-base">{exp.description}</p>

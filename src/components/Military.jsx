@@ -13,9 +13,9 @@ const Military = () => {
           {MILITARY_SERVICE.map((mil, index) => (
             <div
               key={index}
-              className="flex items-center justify-between md:flex-row"
-            >
-              <div className="w-full text-sm font-semibold text-stone-300 md:w-1/4 lg:text-lg">
+              className="flex flex-col-reverse md:flex-row md:items-center md:justify-between"
+              >
+                <div className="w-full text-sm font-semibold text-stone-300 order-1 md:order-none md:w-1/4 lg:text-lg">
                 {mil.yearRange}
               </div>
               <div className="w-full md:w-3/4">
