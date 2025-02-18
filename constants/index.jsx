@@ -25,7 +25,7 @@ export const NAVIGATION_LINKS = [
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#experience" },
   { label: "Education", href: "#education" },
-  { label: "Military Service", href: "#mikitary" },
+  { label: "Military Service", href: "#military" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -157,12 +157,12 @@ export const MILITARY_SERVICE = [
     yearRange: "2023 - 2024",
     role: "Active reserve duty – Iron Swords war",
     description:
-      "Head of lifeblood system for combat soldiers in Gaza, 98 division.Responsible for combat supplies, validity of the supplies, orders and more. In parallel, evacuation of wounded and fallen soldiers in Gaza. ",
+      "Head of lifeblood system for combat soldiers in Gaza, 98 division. Responsible for combat supplies, validity of the supplies, orders and more. In parallel, evacuation of wounded and fallen soldiers in Gaza. ",
   },
   {
     yearRange: "2014 - 2017",
     role: "Combat soldier in karakal",
     description:
-      " I volunteered for combat service to contribute in a meaningful way with the goal of combining giving with receiving. The position required me to meet targets and make decisions under pressure. This experience developed my leadership, teamwork and problemsolving skills, which translated well into my professional life",
+      "I volunteered for combat service to contribute in a meaningful way with the goal of combining giving with receiving. The position required me to meet targets and make decisions under pressure. This experience developed my leadership, teamwork and problemsolving skills, which translated well into my professional life.",
   },
 ];
