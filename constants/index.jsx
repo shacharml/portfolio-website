@@ -10,8 +10,6 @@ import {
   RiNodeTree,
   RiJavaLine,
   RiAndroidLine,
-} from "@remixicon/react";
-import {
   RiDatabaseLine,
   RiCodeSSlashLine,
   RiGitBranchLine,
@@ -96,37 +94,39 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     name: "JAVA",
-    icon: <RiJavaLine className="text-orange-600" />,
+    icon: <RiJavaLine style={{ fill: "#F8991D" }} />, // Orange
   },
   {
     name: "Android",
-    icon: <RiAndroidLine className="text-blue-500" />,
+    icon: <RiAndroidLine style={{ fill: "#3DDC84" }} />, // Green
   },
   {
     name: "JavaScript",
-    icon: <RiJavascriptLine className="text-yellow-500" />,
+    icon: <RiJavascriptLine style={{ fill: "#FBBF24" }} />, // Yellow
   },
   {
     name: "React",
-    icon: <RiReactjsLine className="text-blue-400" />,
+    icon: <RiReactjsLine style={{ fill: "#61DAFB" }} />, // Light Blue
   },
   {
     name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    icon: <RiNodeTree style={{ fill: "#8CC84B" }} />, // Green
   },
   {
     name: "Firebase",
-    icon: <RiDatabaseLine className="text-green-600" />,
+    icon: <RiDatabaseLine style={{ fill: "#FF6A00" }} />, // Orange-Red
   },
   {
     name: "Tailwind CSS",
-    icon: <RiCodeSSlashLine className="text-teal-400" />,
+    icon: <RiCodeSSlashLine style={{ fill: "#38B2AC" }} />, // Teal
   },
   {
     name: "Git",
-    icon: <RiGitBranchLine className="text-pink-400" />,
+    icon: <RiGitBranchLine style={{ fill: "#F14E6C" }} />, // Pink
   },
 ];
+
+
 
 export const EXPERIENCES = [
   {
