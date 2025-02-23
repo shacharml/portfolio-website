@@ -3,11 +3,8 @@ import project2 from "../src/assets/SafePass.webp";
 import project3 from "../src/assets/ProtfolioWebsite.webp";
 import project4 from "../src/assets/PermmisionLibrary.jpg";
 import project5 from "../src/assets/GrandmasSecrets.jpg";
-import personImage from "../src/assets/testimonial.webp";
 
 import {
-  RiHtml5Line,
-  RiCss3Line,
   RiJavascriptLine,
   RiReactjsLine,
   RiNodeTree,
