@@ -1,31 +1,43 @@
+# Name of the GitHub Action. This will appear in the Actions tab on GitHub.
 name: Deploy Vite React to GitHub Pages
 
+# Trigger the workflow to run on specific events.
 on:
   push:
     branches:
-      - main  # Change this if your main branch is named differently
+      - main  # This means the action runs when a commit is pushed to the 'main' branch. 
+              # Change this if your main branch has a different name (e.g., 'master').
 
+# Define jobs that run in this workflow.
 jobs:
   deploy:
+    # Specifies the environment (OS) to run the job on. 'ubuntu-latest' is a commonly used environment.
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout step: This action checks out the repository code on the runner machine.
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # This action checks out your code from GitHub so that the workflow can access it.
 
+      # Setup step: This action sets up the correct version of Node.js in your workflow environment.
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3  # This action will set up the specified version of Node.js
         with:
-          node-version: 18  # Ensure this matches your project's Node.js version
+          node-version: 18  # This ensures Node.js version 18 is used for your project. Make sure this matches your project’s version.
 
+      # Install dependencies step: This runs the 'npm install' command to install project dependencies.
       - name: Install dependencies
-        run: npm install
+        run: npm install  # Install all the necessary packages that your React app needs.
 
+      # Build step: This runs the build script defined in your package.json to prepare your app for deployment.
       - name: Build project
-        run: npm run build
+        run: npm run build  # This will create the production-ready build (usually in the 'dist' folder).
 
+      # Deploy step: This deploys your built project to GitHub Pages using a deployment action.
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4  # This action is responsible for deploying to GitHub Pages.
         with:
-          branch: gh-pages  # The branch where the site will be deployed
-          folder: dist       # Vite's default output folder
+          branch: gh-pages  # This specifies the 'gh-pages' branch where your site will be deployed. 
+                             # GitHub Pages will serve the site from this branch.
+          folder: dist       # This tells the action to deploy the contents of the 'dist' folder, 
+                             # which is where Vite places the production-ready build files.
