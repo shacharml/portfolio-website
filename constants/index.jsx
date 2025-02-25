@@ -1,3 +1,4 @@
+import React from "react";
 import project1 from "../src/assets/FitMeAppProject.jpg";
 import project2 from "../src/assets/SafePass.webp";
 import project3 from "../src/assets/ProtfolioWebsite.webp";

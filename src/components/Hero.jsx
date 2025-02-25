@@ -1,3 +1,4 @@
+import React from "react";
 import { useRef } from "react";
 import { PROFILE } from "../../constants";
 import { RiArrowRightUpLine } from "@remixicon/react";
