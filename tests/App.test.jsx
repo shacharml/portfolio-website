@@ -18,6 +18,6 @@ test('renders the main sections of the portfolio', () => {
   expect(screen.getByRole('heading', { level: 2, name: /education/i })).toBeInTheDocument();
   expect(screen.getByRole("heading", { level: 2, name: /military service/i })).toBeInTheDocument();
   expect(screen.getByRole('heading', { level: 2, name: /contact/i })).toBeInTheDocument();
-
+// i - is the flag that ensures case-insensitivity.
 });
 
