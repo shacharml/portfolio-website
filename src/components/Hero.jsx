@@ -16,7 +16,7 @@ const Hero = () => {
           {PROFILE.name}
         </h1>
         <h2
-          className="hero-subtitle bg-gradient-to-b from-amber-400 to-amber-700 bg-clip-text text-center text-2xl -tracking-tighter
+          className="hero-subtitle bg-gradient-to-b from-red-700 to-lime-600 bg-clip-text text-center text-2xl -tracking-tighter
        text-transparent "
         >
           {PROFILE.role}
