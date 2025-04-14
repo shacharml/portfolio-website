@@ -26,7 +26,7 @@ const Hero = () => {
         {PROFILE.subheading}
       </p>
       <a
-        href="./Shachar Males-Resume.pdf"
+        href="./Shachar Males -  CV Software Engineer.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
