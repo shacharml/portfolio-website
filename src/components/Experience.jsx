@@ -28,7 +28,7 @@ const Experience = () => {
                     </span>
                   </span>
                 </h3>
-                <p className="mb-4 text-sm lg:text-base">{exp.description}</p>
+                <p className="mb-4 text-sm lg:text-base whitespace-pre-line">{exp.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {exp.techStack.map((tech, id) => (
                     <span

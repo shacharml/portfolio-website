@@ -29,7 +29,8 @@ export const PROFILE = {
   name: "Shachar Males",
   role: "Software Developer",
   subheading:
-    " I am a software engineer with strong teamwork skills, the ability to handle multiple tasks, and a mastery of various tools and technologies. I am seeking a Software Engineer position to apply my skils and knowledge in a real-world setting. I am a quick learner and have strong interpersonal skills. I am excited to bring my enthusiasm and dedication to the role.",
+    "I am a software engineer with strong teamwork skills, the ability to handle multiple tasks. I am seeking a Software Engineer position to apply my skills and knowledge. I am a quick learner and have strong interpersonal skills. I am excited to bring my enthusiasm and dedication to the role."
+    // " I am a software engineer with strong teamwork skills, the ability to handle multiple tasks, and a mastery of various tools and technologies. I am seeking a Software Engineer position to apply my skils and knowledge in a real-world setting. I am a quick learner and have strong interpersonal skills. I am excited to bring my enthusiasm and dedication to the role.",
 };
 
 export const PROJECTS = [
@@ -131,13 +132,25 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    yearRange: "2023 - Present",
-    role: "Wedding planner and producer",
-    company: "Ofek Pravda",
-    description:
-      "Working with providers, dealing with purchases and money,managing the event, facing unexpected situations and meeting the couple’s needs and requests.",
+    yearRange: "2025 - Present",
+    role: "Frontend Flutter Developer",
+    company: "Albos",
+   description:
+      "• Develop and maintain cross-platform mobile application features using Flutter (Dart) in Android Studio.\n" +
+      "• Implement UI components based on design requirements to ensure responsive and user-friendly experiences.\n" +
+      "• Participate in application version updates and ongoing feature improvements.\n" +
+      "• Integrate and manage app distribution using Firebase App Distribution and Apple TestFlight.\n" +
+      "• Collaborate with team members using Git for version control, code reviews, and feature development.",
     techStack: [],
   },
+  // {
+  //   yearRange: "2023 - Present",
+  //   role: "Wedding planner and producer",
+  //   company: "Ofek Pravda",
+  //   description:
+  //     "Working with providers, dealing with purchases and money,managing the event, facing unexpected situations and meeting the couple’s needs and requests.",
+  //   techStack: [],
+  // },
 ];
 
 export const EDUCATION = [
