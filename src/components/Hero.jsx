@@ -1,7 +1,6 @@
-import React from "react";
 import { useRef } from "react";
 import { PROFILE } from "../../constants";
-import { RiArrowRightUpLine } from "@remixicon/react";
+// import { RiArrowRightUpLine } from "@remixicon/react";
 import shachar from "../assets/linkdin_img.jpeg";
 
 const Hero = () => {
@@ -25,8 +24,8 @@ const Hero = () => {
       <p className="hero-text max-w-2xl p-2 text-center text-xl tracking-tighter lg:text-1xl">
         {PROFILE.subheading}
       </p>
-      <a
-        href="./Shachar Males - CV Software Engineer.pdf"
+      {/* <a
+        href="./Shachar Males -  CV Software Engineer.pdf"
         target="_blank"
         rel="noopener noreferrer"
         download
@@ -34,7 +33,7 @@ const Hero = () => {
       >
         <span>Download Resume</span>
         <RiArrowRightUpLine />
-      </a>
+      </a> */}
       <img
         src={shachar}
         alt={PROFILE.name}
